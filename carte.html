@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_389d718ff19e0ec080c2225af8f2542b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_389d718ff19e0ec080c2225af8f2542b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_389d718ff19e0ec080c2225af8f2542b = L.map(
+                "map_389d718ff19e0ec080c2225af8f2542b",
+                {
+                    center: [5.366246666666667, 10.410586666666667],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6d94f1870170891fc43dddd446b25be8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_389d718ff19e0ec080c2225af8f2542b);
+        
+    
+            var marker_cluster_eaea20ab922228e518c59f887ea2fe90 = L.markerClusterGroup(
+                {}
+            );
+            map_389d718ff19e0ec080c2225af8f2542b.addLayer(marker_cluster_eaea20ab922228e518c59f887ea2fe90);
+        
+    
+            var marker_5f9b5fba15045cc9448c0026d3a70b4d = L.marker(
+                [5.366246666666667, 10.410586666666667],
+                {}
+            ).addTo(marker_cluster_eaea20ab922228e518c59f887ea2fe90);
+        
+    
+        var popup_57b64d3c3b331c6ae0527d8a84e0f346 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6729562ebef60001a789980792a34991 = $(`<div id="html_6729562ebef60001a789980792a34991" style="width: 100.0%; height: 100.0%;">         <b>Classe :</b> Speed Limit 80<br>         <b>Vitesse :</b> 0.26 km/h<br>         <b>Date :</b> 290525<br>         <b>Heure :</b> 164338.000<br>         <img src="captures/Speed Limit 80_20250529_184413_575116.jpg" width="200px">         </div>`)[0];
+            popup_57b64d3c3b331c6ae0527d8a84e0f346.setContent(html_6729562ebef60001a789980792a34991);
+        
+
+        marker_5f9b5fba15045cc9448c0026d3a70b4d.bindPopup(popup_57b64d3c3b331c6ae0527d8a84e0f346)
+        ;
+
+        
+    
+    
+            var marker_cc0655e960122751324628299bf31180 = L.marker(
+                [5.366246666666667, 10.410585],
+                {}
+            ).addTo(marker_cluster_eaea20ab922228e518c59f887ea2fe90);
+        
+    
+        var popup_a764492a5dfc84c5d318f934e17e2998 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_805cd57c5ab8113025fc8d834322bd1d = $(`<div id="html_805cd57c5ab8113025fc8d834322bd1d" style="width: 100.0%; height: 100.0%;">         <b>Classe :</b> Speed Limit 80<br>         <b>Vitesse :</b> 0.26 km/h<br>         <b>Date :</b> 290525<br>         <b>Heure :</b> 164339.000<br>         <img src="captures/Speed Limit 80_20250529_184424_921705.jpg" width="200px">         </div>`)[0];
+            popup_a764492a5dfc84c5d318f934e17e2998.setContent(html_805cd57c5ab8113025fc8d834322bd1d);
+        
+
+        marker_cc0655e960122751324628299bf31180.bindPopup(popup_a764492a5dfc84c5d318f934e17e2998)
+        ;
+
+        
+    
+    
+            var marker_a9d4debbad3a3d036c5dd75dcf65fb3c = L.marker(
+                [5.366246666666667, 10.410585],
+                {}
+            ).addTo(marker_cluster_eaea20ab922228e518c59f887ea2fe90);
+        
+    
+        var popup_d941e27be0fbaf11befef7b5aa7c4a90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0250356536842db63d016235684841e4 = $(`<div id="html_0250356536842db63d016235684841e4" style="width: 100.0%; height: 100.0%;">         <b>Classe :</b> Speed Limit 60<br>         <b>Vitesse :</b> 0.24 km/h<br>         <b>Date :</b> 290525<br>         <b>Heure :</b> 164340.000<br>         <img src="captures/Speed Limit 60_20250529_184550_009034.jpg" width="200px">         </div>`)[0];
+            popup_d941e27be0fbaf11befef7b5aa7c4a90.setContent(html_0250356536842db63d016235684841e4);
+        
+
+        marker_a9d4debbad3a3d036c5dd75dcf65fb3c.bindPopup(popup_d941e27be0fbaf11befef7b5aa7c4a90)
+        ;
+
+        
+    
+    
+            var marker_7086d7b893e410580f416c16415f0779 = L.marker(
+                [5.366246666666667, 10.410585],
+                {}
+            ).addTo(marker_cluster_eaea20ab922228e518c59f887ea2fe90);
+        
+    
+        var popup_e43bbc8c07427e248d3ffa6ecef257ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c358cf67fae553a3cde71e9e0a3c6b07 = $(`<div id="html_c358cf67fae553a3cde71e9e0a3c6b07" style="width: 100.0%; height: 100.0%;">         <b>Classe :</b> Speed Limit 70<br>         <b>Vitesse :</b> 0.24 km/h<br>         <b>Date :</b> 290525<br>         <b>Heure :</b> 164341.000<br>         <img src="captures/Speed Limit 70_20250529_184558_160422.jpg" width="200px">         </div>`)[0];
+            popup_e43bbc8c07427e248d3ffa6ecef257ec.setContent(html_c358cf67fae553a3cde71e9e0a3c6b07);
+        
+
+        marker_7086d7b893e410580f416c16415f0779.bindPopup(popup_e43bbc8c07427e248d3ffa6ecef257ec)
+        ;
+
+        
+    
+    
+            var marker_3c70c140047b28444d3e63b341cd47aa = L.marker(
+                [5.366246666666667, 10.410583333333333],
+                {}
+            ).addTo(marker_cluster_eaea20ab922228e518c59f887ea2fe90);
+        
+    
+        var popup_571fe558b0c664750ac13deecd127ba7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42dc69e195e2b5fa2179b114d8463f08 = $(`<div id="html_42dc69e195e2b5fa2179b114d8463f08" style="width: 100.0%; height: 100.0%;">         <b>Classe :</b> Speed Limit 70<br>         <b>Vitesse :</b> 0.22 km/h<br>         <b>Date :</b> 290525<br>         <b>Heure :</b> 164342.000<br>         <img src="captures/Speed Limit 70_20250529_184608_460040.jpg" width="200px">         </div>`)[0];
+            popup_571fe558b0c664750ac13deecd127ba7.setContent(html_42dc69e195e2b5fa2179b114d8463f08);
+        
+
+        marker_3c70c140047b28444d3e63b341cd47aa.bindPopup(popup_571fe558b0c664750ac13deecd127ba7)
+        ;
+
+        
+    
+    
+            var marker_ed7dc8d3e549ff1ff0a34e76fdab4109 = L.marker(
+                [5.366246666666667, 10.410583333333333],
+                {}
+            ).addTo(marker_cluster_eaea20ab922228e518c59f887ea2fe90);
+        
+    
+        var popup_52160fb0950c60c6f88f11fc33fc9346 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5168fd5d6a19d5b6f289eb5a974b1b1 = $(`<div id="html_d5168fd5d6a19d5b6f289eb5a974b1b1" style="width: 100.0%; height: 100.0%;">         <b>Classe :</b> Speed Limit 70<br>         <b>Vitesse :</b> 0.19 km/h<br>         <b>Date :</b> 290525<br>         <b>Heure :</b> 164343.000<br>         <img src="captures/Speed Limit 70_20250529_184615_395317.jpg" width="200px">         </div>`)[0];
+            popup_52160fb0950c60c6f88f11fc33fc9346.setContent(html_d5168fd5d6a19d5b6f289eb5a974b1b1);
+        
+
+        marker_ed7dc8d3e549ff1ff0a34e76fdab4109.bindPopup(popup_52160fb0950c60c6f88f11fc33fc9346)
+        ;
+
+        
+    
+</script>
+</html>
